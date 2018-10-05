@@ -1,0 +1,40 @@
+.body {
+    background-color: grey;
+}
+
+.sideNav {
+    width: 0;
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: grey;
+    flex-direction: column;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
+}
+
+.sideNav a {
+    padding: 20px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.sideNav a:hover {
+    background-color: white;
+    color: black;
+}
+
+button {
+    font-size: 20px;
+}
+
+@media (min-width: 1600px) {
+    
+}
